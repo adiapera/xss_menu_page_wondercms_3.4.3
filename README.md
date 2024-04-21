@@ -5,8 +5,10 @@
 
 **Description:** Cross-site scripting (XSS) vulnerability in MENU of the SETTINGS section of WonderCMS 3.4.3 allow attackers to execute arbitrary web scripts or HTML via a crafted payload injected into two fields: 'WEBSITE TITLE' and/or 'MENU'.
 
+**CVE:** CVE-2024-32340 y CVE-2024-32746.
+
 ## PoC
-### WEBSITE TITLE
+### WEBSITE TITLE (CVE-2024-32340)
 1. Enter to MENU of the SETTINGS section in the webpage and in 'WEBSITE TITLE' set the payload:
 
 ![image](https://github.com/adiapera/xss_menu_page_wondercms_3.4.3/assets/165512291/9a0188b1-76c8-4f98-9e07-19cf0d79a420)
@@ -17,7 +19,7 @@
 ![image](https://github.com/adiapera/xss_menu_page_wondercms_3.4.3/assets/165512291/016133b6-1425-4834-8dbd-8a155d934527)
 
 
-### MENU
+### MENU (CVE-2024-32746)
 1. Enter to MENU of the SETTINGS section in the webpage and in any 'MENU' parameter set the payload:
 
 ![image](https://github.com/adiapera/xss_menu_page_wondercms_3.4.3/assets/165512291/caf6eb26-dd25-412a-8c94-d56a6fbd8fa4)
